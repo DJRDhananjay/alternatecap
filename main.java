@@ -7,6 +7,7 @@ public class Main
 		for(int i=0;i<name.length();i++){
 		    char ch=name.charAt(i);
 		    if(ch==' '){
+				System.out.print(" ");
 		        count=0;
 		    }else{
 		        if(count%2==0){
